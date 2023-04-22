@@ -18,7 +18,7 @@ var players = new Players();
 //Mongodb setup
 var MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-var url = "mongodb://localhost:27017/";
+var url = "mongodb+srv://asgerspange:<password>@cluster0.0d3znvu.mongodb.net/test";
 
 
 
