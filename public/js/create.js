@@ -16,8 +16,7 @@ socket.on('gameNamesData', function(data){
         div.appendChild(button);
         div.appendChild(document.createElement('br'));
         div.appendChild(document.createElement('br'));
-        button.innerHTML = data[i].name;
-        button.setAttribute('onClick', "removeGame('" + data[i].id + "')");
+        
     }
 });
 
